@@ -27,13 +27,13 @@ class topological_node:
     def plan(self, node_no=1):
         if node_no == 1:
             if self.count == 1:
-                self.cmd_dir.data = (0, 1, 0)
+                self.cmd_dir.data = (0, 0, 1)
             if self.count == 2:
-                self.cmd_dir.data = (0, 0, 1)
+                self.cmd_dir.data = (0, 1, 0)
             if self.count == 3:
-                self.cmd_dir.data = (0, 0, 1)
+                self.cmd_dir.data = (0, 1, 0)
             if self.count == 4:
-                self.cmd_dir.data = (0, 0, 1)
+                self.cmd_dir.data = (0, 1, 0)
             if self.count == 5:
                 self.cmd_dir.data = (1, 0, 0)
             if self.count == 6:
