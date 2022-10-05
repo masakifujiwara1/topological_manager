@@ -24,6 +24,7 @@ class topological_node:
     def callback_class(self, data):
         self.detect_class_data = data.data
         self.detect_flag = True
+        print("detect aisle")
         self.count += 1
 
     def plan(self, node_no=1):
